@@ -3,4 +3,6 @@ production:
         - source: /.cloud66/append.sh
           destination: /tmp/append.sh
           target: elasticsearch
-          apply_during: build_only
+          apply_during: all # build_only
+          execute: true
+          sudo: true
