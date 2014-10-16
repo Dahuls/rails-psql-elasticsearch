@@ -1,0 +1,9 @@
+production:
+    elasticsearch:
+        servers:
+            server: 
+                unique_name: search
+    postgresql:
+        servers:
+            server:
+                same_as: search
