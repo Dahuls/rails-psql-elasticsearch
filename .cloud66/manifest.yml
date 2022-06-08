@@ -1,3 +1,6 @@
 rails:
   configuration:
     node_version: "10"
+elasticsearch:
+  configuration:
+    version: 6.6.0
